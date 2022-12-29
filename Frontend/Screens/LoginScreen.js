@@ -9,7 +9,7 @@ export default function LoginScreen() {
     const navigation = useNavigation()
     return (
         <View style={styles.container}>
-            <Text style={{ fontSize: 40, fontWeight: '700', marginTop: 25, marginBottom: 25 }}>
+            <Text style={{ fontSize: 40, fontWeight: '700', marginTop: 25, marginBottom: 25,color:'#041E42' }}>
                 Login Here
             </Text>
             <View style={{ borderColor: 'black', borderWidth: 2, height: height - 200, width: width - 40, alignItems: 'center', backgroundColor: '#041E42', borderRadius: 50 }}>
